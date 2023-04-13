@@ -7,19 +7,31 @@
     <title>Document</title>
 </head>
 <style>
-    *{
-        height: auto;
-        
-    }
+.container {
+  display: grid;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.header
+{
+    grid-column: 1/ span 5;
+    grid-row: 1; 
+}
+
+
+
+
 </style>
 <body>
+    <h1>Grid adjustment </h1>
+    <div class="container"></div>
      <div class="header">Headert</div>
      <div class="box1">Box_1</div>
-     <div class="box2">Box_2</div>
-     <div class="Box_3">Box_3</div>
-     <div class="Box_4">right_side</div>
-     <div class="box5">Left_side</div>
-     <div class="fooetr">Footer</div>
-     </div>
+     <div class="box2">left menue</div>
+     <div class="Box_3">slider</div>
+     <div class="Box_4">body</div>
+     <div class="box5">footer</div>
+        </div>
 </body>
 </html>

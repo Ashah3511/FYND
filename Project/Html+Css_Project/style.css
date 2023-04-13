@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}  
+.container{
+  background-color: #b3d3c0;
+
+}
+.navbar
+{
+    background: #60a87c;
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+  
+}
+.menu
+{
+    list-style-type:none;
+}
+.h1
+{
+    display: inline-block;
+    padding: 20px 20px;
+}
+.logo
+{
+    height: 70px;
+    width: 70px;
+}
+.h1 a
+{
+    text-decoration: none;
+    color: white;
+}
+.h1 a:hover
+{
+  
+  background-color: rgb(234, 55, 55);
+    
+}
+#bb2
+{
+    text-align: center;
+}
+.sp1
+{
+  color: black;
+}
+#slider
+  {
+    position: relative;
+    height: 150px;
+    width: 550%;
+    margin: 0;
+    left:0;
+    animation: 20s slider infinite;
+}
+  #slider figure img{
+    float: left;
+    height: 15rem;
+    width: 10%;
+    padding: 10 px;
+    image-resolution: 100px 100px;
+    
+  }
+  
+  @keyframes slider  {
+    0%{
+      left:0;
+    }
+    20%{
+      left:0;
+    }
+    25%{
+      left:-100%;
+    }
+    45%{
+      left:-100%;
+    }
+    50%{
+      left:-200%;
+    }
+    70%{
+      left:-200%;
+    }
+    75%{
+      left:-300%;
+    }
+    95%{
+      left:-300%;
+    }
+    100%{
+      left:-400%
+    }
+  }
+  .hadfr
+  {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+  .secthree{
+    position: relative;
+    display: flex;
+    margin: 130px 0px ;
+    background-color: hsla(122, 43%, 65%, 0.936);
+    height: 300px;
+    width: 100%;
+  }
+  .secthree:hover
+  {
+    background-color:hsl(159, 36%, 35%); ;
+  }
+  
+
+  .hhelp
+  {
+    height: 250px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 10px
+  }
+  .hhelp:hover
+  {
+    box-shadow: 30px 30px rgba(121, 188, 97, 0.669);
+  }
+  .lone
+  {
+    text-align: right;
+    display: flex;
+    padding: 10px 10px;
+
+  }
+  .onehh{
+    text-align: center;
+    color: red;
+  }
+  .headertwo h3
+  {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: white;
+  }
+  .second
+  {
+    margin: 5px;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    background-color: #378956;
+
+  }
+  .second:hover
+  {
+    background-color: #83a891
+
+  }
+  .three
+  {
+    margin: 5px;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    background-color: #44d871;
+    background-image: url(./Img/div_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+  }
+  .three:hover
+  {
+    background-color:hsl(159, 36%, 35%); ;
+  }
+  footer
+  {
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+    color:  white;
+    background-color: black;
+    display: flex;
+    border: 2px solidblack;
+    height: 200px;
+    width: 100%;
+    gap: 30px;
+  }
+  .ft2{
+    text-align: right;
+  }
+  
+  
+  
+
+  
+  

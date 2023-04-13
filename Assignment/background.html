@@ -19,7 +19,8 @@
     }
     .one
     {
-        margin: 5px;
+
+        margin: 10px;
         height: 50px;
         width: 1300px;
         border: 5px ;
@@ -62,29 +63,55 @@
         opacity: 1;
         text-align: center;
     }
+    .navbar
+    {
+        background-color: rgba(14, 34, 91, 0.938);
+        overflow: hidden;
+    }
+
+    .logo
+    {
+        float: left;
+        margin: 0;
+        border-radius: 50%;
+        background-size: cover;
+        padding: 5px 5px;
+    }    
+    ul
+    {
+        height: 75px;
+        padding: 15px 15px;
+        float: right;
+        list-style-type:none;
+        display: flex;
+        color: white
+        gap: 30px;
+        font-size: 30px;
+        overflow: hidden; 
+    }
 </style>
 
 <body>
+    
     <h1 id="abc">This is Hadding</h1>
-    <nav>
-		<div class="logo-container">
-			<div style="margin-bottom: 15px;">
-				<img src="/media/ZOSTEL_LOGO_.png" alt="Zostel logo">
-			</div>
-			<h2>zostel</h2>
-		</div>
-		<ul>
-			<li><a href="#">Destinations</a></li>
-			<li class="dropdown">
-				<a href="#">Zostel &#9662;</a>
-				<ul class="dropdown-content">
-					<li><a href="#">Allepey</a></li>
-					<li><a href="#">Manali</a></li>
-					<li><a href="#">Rishikesh</a></li>
-				</ul>
-			</li>
-			<li class="dropdown">
-				<a href="#">Zostel Homes
+        <nav class="navbar">
+
+            <div class="sideleft">
+                <img src="./Img/bacground_demo_1.png" alt="" class="logo">
+            </div>
+            <div class="sideright">
+                <ul>
+                    <li><a href="default.asp">Home</a></li>
+                    <li><a href="news.asp">News</a></li>
+                    <li><a href="contact.asp">Contact</a></li>
+                    <li><a href="about.asp">About</a></li>
+                  </ul>
+            </div>
+        </nav>
+	<br>
+    <br>
+    <br>
+
     <div class="one">
         This is new color & border 1
     </div>
